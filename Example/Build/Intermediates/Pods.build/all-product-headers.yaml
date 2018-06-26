@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/MDFelix/MDFelix.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MDFelix-Swift.h",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/MDFelix/MDFelix.framework/Headers/MDFelix-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MDFelix-umbrella.h",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Pods/Target Support Files/MDFelix/MDFelix-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/MDFelix/MDFelix.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/MDFelix.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/Pods_MDFelix_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-MDFelix_Example-umbrella.h",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Pods/Target Support Files/Pods-MDFelix_Example/Pods-MDFelix_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_MDFelix_Example-Swift.h",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/Pods_MDFelix_Example.framework/Headers/Pods_MDFelix_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Products/Debug-iphonesimulator/Pods_MDFelix_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lizitao/Desktop/MDFelix/MDFelix/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MDFelix_Example.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_MDFelix_Tests {
+  umbrella header "Pods-MDFelix_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
