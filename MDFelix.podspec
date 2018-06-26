@@ -8,7 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MDFelix'
-  s.version          = '0.1.0'
+  s.name             = 'MDFelix'
+   def self.smart_version
+    tag = `git describe --abbrev=0 --tags 2>/dev/null`.strip
+    if $?.success? then tag else "0.0.1" end
+  end
+  s.version          = smart_version
   s.summary          = 'A short description of MDFelix.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +29,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/leon0206/MDFelix'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'leon0206' => 'zitao.li@quvideo.com' }
+  s.author           = { 'leon0206' => '634376133@qq.com' }
   s.source           = { :git => 'https://github.com/leon0206/MDFelix.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +43,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Aspects'
 end
